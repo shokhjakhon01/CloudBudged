@@ -1,0 +1,296 @@
+@media(max-width:1200px){
+  .menu__button{
+    display: block;
+    background: none;
+    color:#09151f;
+    font-size: 25px;
+    border: none;
+    text-shadow: 1px 2px 2px #09151f;
+    align-items: center;
+  }
+
+  .header__nav{
+    transform: translateY(-200px);
+    transition: 0.5s linear;
+    width: 100%;
+    left: 0;
+    height: 50%;
+    position: absolute;
+    background: rgb(73, 57, 57);
+    display: flex;
+    position: fixed;
+    z-index: 11;
+    justify-content: space-around;
+    
+  }
+
+  .close__button{
+    color: white;
+    z-index: 11;
+    display: block;
+    font-size: 25px;
+    border: none;
+    background: none;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+  }
+
+  .main__features{
+    flex-wrap: wrap;
+  }
+
+  .features__info:nth-child(3){
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .form__right-intro__input{
+    width: 100%;
+  }
+  
+  .form__right-intro__input:nth-child(2){
+    margin-left: 0;
+    margin-top: 24px;
+  }
+
+  
+
+ 
+}
+
+@media(max-width:992px){
+  .intro__texts-title{
+    font-size: 60px;
+    margin-bottom: 10px ;
+  }
+
+  .main__intro{
+    margin-top: 0px;
+  }
+
+  .intro__conversation{
+    flex-direction: column;
+  }
+
+  .conversation__left{
+    margin-bottom: 20px;
+    
+  }
+
+  .middle__title{
+    margin-top: 20px;
+  }
+
+  .main__features{
+    justify-content: center;
+  }
+
+  .features__info:nth-child(1){
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .features__info:nth-child(2){
+    width: 100%;
+  }
+  .features__info:nth-child(3){
+    width: 100%;
+  }
+
+  .technology__part{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .technology__main{
+    flex-wrap: wrap;
+  }
+
+  .technology__main-tools{
+    width: 50%;
+  }
+
+  .description{
+    flex-direction: column-reverse;
+  }
+
+  .description__right{
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .description__left-connection{
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .form__left__text{
+    width: 300px
+  }
+
+  .last__section {
+    flex-wrap: wrap;
+  }
+
+  .last__section__1 {
+    width: 50%;
+  }
+  .last__section__2 {
+    width: 50%;
+  }
+  .last__section__3 {
+    width: 50%;
+  }
+  .last__section__4 {
+    width: 50%;
+    justify-content: flex-end;
+  }
+}
+
+@media(max-width:768px){
+  .header__nav{
+    flex-wrap: wrap;
+    min-height: 200px;
+  }
+  .header__nav-list{
+    margin-top: 70px;
+  }
+
+  .form{
+    flex-direction: column;
+  }
+
+  .form__left{
+    margin: auto;
+  }
+
+  .form__link{
+    margin: auto;
+  }
+
+  .nav__{
+    margin-top:40px;
+  }
+  .intro__texts-text{
+    margin-bottom: 0;
+  }
+}
+
+@media(max-width:576px){
+  .technology__main-tools{
+    width: 100%;
+  }
+
+  .conversation__right{
+    position: relative;
+  }
+
+  .right__play {
+    position: absolute;
+  }
+
+  .right__img{
+    width: 100%;
+  }
+
+  .slider{
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 4px 4px 4px rgb(167, 154, 154);
+  }
+
+  .intro__texts-title {
+    font-size: 30px;
+  }
+
+  .intro__texts-text{
+    font-size: 16px;
+  }
+
+  .header__nav-list{
+    flex-wrap: wrap;
+  }
+
+  .left__title{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .left__text{
+    font-size: 16px;
+  }
+
+  .left__link{
+    display: flex;
+    justify-content: center;
+  }
+
+  .intro__texts-text{
+    height: max-content;
+  }
+
+  .decsription__left-title{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .last__section__1 {
+    width: 100%;
+    margin: auto;
+  }
+  .last__section__2 {
+    width: 100%;
+    margin: auto;
+  }
+  .last__section__3 {
+    width: 100%;
+    margin: auto;
+  }
+  .last__section__4 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .features__info-img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .intro__texts-title{
+    line-height: 20px;
+  }
+
+  .intro__texts-text{
+    min-height: 0;
+  }
+
+  .right__img{
+    box-shadow: 4px 3px 4px rgb(133, 124, 124);
+  }
+
+  .features__info-img{
+    box-shadow: 4px 4px 4px rgb(133, 123, 123);
+  }
+
+  .main__tools-img{
+    box-shadow: 3px 4px 4px rgb(136, 120, 120);
+    border-radius: 5px;
+  }
+
+  .intro__texts-link{
+    margin-bottom: 30px;
+    border: solid 2px #ED4C5C;
+  }
+  .header__nav-link{
+    font-size: 16px;
+  }
+ 
+}
+
+@media(max-width:385px){
+  
+  .intro__texts-link{
+    margin-bottom: 0px;
+  }
+}
